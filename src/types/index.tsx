@@ -14,7 +14,7 @@ export interface buttonProps {
 }
 
 export interface formProps {
-    children?: ReactNode;
+    children: ReactNode;
     action: (formData: FormData) => void;
     onSubmit?: () => void;
 }

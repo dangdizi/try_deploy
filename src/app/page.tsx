@@ -1,7 +1,7 @@
 import { createTodo } from "@/actions/todoAction";
 import { Button } from "@/components/button/Button";
-import { Form } from "@/components/form/Form";
-import { Input } from "@/components/input/Input";
+import Form from "@/components/form/Form";
+import Input from "@/components/input/Input";
 
 export default function Home() {
   return (
