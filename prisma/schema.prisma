@@ -9,7 +9,7 @@ datasource db {
 
 model Todo {
   id          String   @id @default(uuid()) @map("_id")
-  createdAt   DateTime @db.Date
-  isCompleted Boolean @default(false)
+  createdAt   DateTime @default(now())
+  isCompleted Boolean  @default(false)
   title       String
 }
